@@ -2,7 +2,11 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				pixel: ['"pixel"', "sans-serif"], // 像素字型，與網站一致
+			},
+		},
 	},
 	plugins: [],
 };
